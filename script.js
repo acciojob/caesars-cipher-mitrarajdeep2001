@@ -15,7 +15,7 @@ function rot13(encodedStr){
   // Only change code below this line
 
 	for (let i = 0; i < encodedStr.length; i++) {
-		if (encodedStr[i] >= 65 && encodedStr[i] <= 90) {
+		if (encodedStr[i] >= 'A' && encodedStr[i] <= 'Z') {
 			decodedArr.push(lookup[encodedStr[i]]);
 		}
 	}
